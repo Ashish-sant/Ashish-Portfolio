@@ -1,0 +1,241 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #fff;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+  
+  .dark-mode .intro img {
+    filter: brightness(0.7);
+  }
+  
+  .intro {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .intro img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .header-buttons {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+  }
+  
+  .toggle-btn, .resume-btn {
+    margin: 0 5px;
+    background-color: #6f42c1;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .toggle-btn:hover, .resume-btn:hover {
+    background-color: #593196;
+  }
+  
+  .profile {
+    padding: 2rem 0;
+  }
+  
+  .profile-pic img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    transition: transform 0.3s ease;
+  }
+  
+  .profile-pic img:hover {
+    transform: scale(1.1);
+  }
+  
+  .profile h1 {
+    margin-top: 1rem;
+  }
+  
+  .introduction {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+  }
+  
+  .skills {
+    background-color: #f9f3e9;
+    padding: 3rem 1rem;
+  }
+  
+  .skills h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .skill-list li {
+    margin-bottom: 0.75rem;
+    font-size: 1.1rem;
+  }
+  
+  .projects {
+    background-color: #eef9f1;
+    padding: 3rem 1rem;
+  }
+  
+  .projects h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .project-btn {
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .project-btn:hover {
+    background-color: #218838;
+  }
+  
+  .education {
+    background-color: #fff3e0;
+    padding: 3rem 1rem;
+  }
+  
+  .education h2 {
+    margin-bottom: 1rem;
+  }
+  
+  .discussion {
+    background-color: #e9f5ff;
+    padding: 3rem 1rem;
+  }
+  
+  .discussion h2,
+  .discussion h4 {
+    margin-bottom: 1rem;
+  }
+  
+  .discussion-text {
+    max-width: 600px;
+    margin: 1rem auto;
+    font-size: 1.1rem;
+  }
+  
+  .contact-btn {
+    background-color: #6f42c1;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-btn:hover {
+    background-color: #593196;
+  }
+  
+  .footer {
+    background-color: #d1ecf1;
+    padding: 1.5rem 1rem;
+  }
+  
+  .social-links a {
+    color: #007bff;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .profile h1 {
+      font-size: 1.8rem;
+    }
+    
+    .introduction, .discussion-text {
+      font-size: 1rem;
+      padding: 0 1rem;
+    }
+  }
+  .dark-mode {
+    background-color: #121212;
+    color: #f5f5f5;
+  }
+  
+  .dark-mode h1,
+  .dark-mode h2,
+  .dark-mode h4,
+  .dark-mode p,
+  .dark-mode li,
+  .dark-mode a {
+    color: #f5f5f5;
+  }
+  
+  .dark-mode .skills,
+  .dark-mode .projects,
+  .dark-mode .education,
+  .dark-mode .discussion {
+    background-color: #1e1e1e;
+  }
+  
+  .dark-mode .intro img {
+    filter: brightness(0.8);
+  }
+  
+  .dark-mode .toggle-btn,
+  .dark-mode .resume-btn,
+  .dark-mode .contact-btn,
+  .dark-mode .project-btn {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  
+  .dark-mode .toggle-btn:hover,
+  .dark-mode .resume-btn:hover,
+  .dark-mode .contact-btn:hover,
+  .dark-mode .project-btn:hover {
+    background-color: #9a67ea;
+  }
+  
+  .dark-mode .social-links a {
+    color: #bb86fc;
+  }
+  
+  .dark-mode .social-links a:hover {
+    color: #e0b3ff;
+  }
+  
+  .dark-mode .footer {
+    background-color: #1a1a1a;
+  }
+  
+  .dark-mode .profile-pic img {
+    border: 3px solid #bb86fc;
+  }
+    
